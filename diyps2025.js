@@ -17,10 +17,11 @@ function preload() {
 }
 
 function setup() {
-createCanvas(600, 400);  // canvas size
-background(screenbg);   // use our background screen color
-
+  let cnv = createCanvas(600, 400);  // Create canvas
+  cnv.parent(document.body);        // Attach canvas to the <body> so it shows up on GitHub Pages
+  background(screenbg);             // Set the background color
 }
+
 
 function draw() {
   if (keyIsPressed) {
