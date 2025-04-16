@@ -9,11 +9,11 @@ function preload() {
 //  img = loadImage('cat.jpg');  // cat.jpg needs to be next to this .js file
 // you can link to an image on your github account
   rachel = loadImage('https://sachik1.github.io/sachiKDigitalPS/rachel.png');
-  monica = loadImage('monica.PNG');
-  phoebe = loadImage('phoebe.PNG');
-  chandler = loadImage('chandler.PNG');
-  ross = loadImage('ross.PNG');
-  joey = loadImage('joey.PNG');
+  monica = loadImage('https://sachik1.github.io/sachiKDigitalPS/monica.png');
+  phoebe = loadImage('https://sachik1.github.io/sachiKDigitalPS/phoebe.png');
+  chandler = loadImage('https://sachik1.github.io/sachiKDigitalPS/chandler.png');
+  ross = loadImage('https://sachik1.github.io/sachiKDigitalPS/ross.png');
+  joey = loadImage('https://sachik1.github.io/sachiKDigitalPS/joey.png');
 }
 
 function setup() {
